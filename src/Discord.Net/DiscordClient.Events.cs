@@ -6,6 +6,7 @@ namespace Discord
     public partial class DiscordClient
     {
         public event EventHandler Ready = delegate { };
+        //test
         //public event EventHandler<DisconnectedEventArgs> LoggedOut = delegate { };
         /// <summary>When a new channel is created, relevant to the current user.
         /// Discord API Event name: CHANNEL_CREATE.</summary>
